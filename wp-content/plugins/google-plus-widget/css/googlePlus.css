@@ -1,0 +1,32 @@
+#plus-widget { width:215px; }
+
+#plus_card {
+	width: 215px; 
+	overflow:hidden; position: relative; 
+	-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; border: 1px solid; 
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#plus_card_image { width: 80px; height: 80px; margin: 2px 6px 2px 2px; float:left }
+#plus_card_image a { color: #229dca; text-decoration: none; font-weight: bold; cursor:pointer; }
+#plus_card_image a img { }
+
+#plus_card_name { margin-top:4px; margin-bottom:5px; word-wrap: break-word; line-height: 1.3em; font-family:Arial, Helvetica, sans-serif; }
+
+#plusCardCount { margin-top: 1px; }
+#plusCardCount p {line-height: 17px; margin-bottom: 1em;}
+#incirclesFaces { margin-left: 9px; position:absolute; top: 115px; }
+#incirclesFaces img {width: 38px; height:38px;}
+
+#add_to_circles_wrapper { margin-top: -8px; }
+#plus_card_add { margin-right:5px; margin-top:4px; margin-left: 2px; float:left; } 
+#plus_card_add a { word-wrap: break-word; font-family: Arial, Helvetica, sans-serif; padding: 0 4px; text-decoration:none; }
+
+/* #plusCardShowHide {color:#373737; width:0px; cursor: pointer; float:left; position: relative; top: 5px; } */
+#plusCardShowHide {color:#373737; width:0px; cursor: pointer; float:left; margin-top: 4px; }
+
+/* #plusCardCredit { clear: both; position: relative; top: -25px; margin-left: 120px; font-size: 7px; } */
+#plusCardCredit { clear: both; position: relative; top: -2px; margin-left: 90px; font-size: 7px; }
+
+#plusCardCredit span,
+#plusCardCredit span a { font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#808080; text-decoration:none; }
